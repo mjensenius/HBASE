@@ -1,0 +1,22 @@
+{
+  "name": "hbase-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node ./index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^13.9.8",
+    "@types/xml2js": "^0.4.5",
+    "ts-node": "^8.8.1",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "hbase": "^0.6.1",
+    "xml2js": "^0.4.23"
+  }
+}
